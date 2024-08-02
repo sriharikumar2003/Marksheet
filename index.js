@@ -66,3 +66,7 @@ $(document).ready(function(){
             $(".enter").prop("disabled", true);
     });
 });
+
+function reply(){
+    alert("Marksheet Saved");
+}
