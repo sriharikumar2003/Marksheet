@@ -2,8 +2,8 @@ $(document).ready(function(){
     $(".enter").click(() => {
         let name = $("#stud").val();
         let regno = $("#regi").val();
-        $("#stuname").html(`<h4>Student Name: ${name}</h4>`);
-        $("#regnum").html(`<h4>Register No: ${regno}</h4>`);
+        $("#stuname").html(`<h4>Student Name</h4><h4>${name}</h4>`);
+        $("#regnum").html(`<h4>Register No</h4><h4>${regno}</h4>`);
         let phyt = $(".phyt").val(); 
         let phyp = $(".phyp").val(); 
         $(".physics").append(`<th>${phyt}</th><th>${phyp}</th><th>${parseInt(phyt) + parseInt(phyp)}</th>`);
