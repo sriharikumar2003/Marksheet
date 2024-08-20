@@ -33,27 +33,27 @@ $(document).ready(function(){
         $("#end").append(`
             <th>${percent}%</th>
             `);
-        if(percent > 90){
+        if(percent >= 90){
             $("#end").append(`
                 <th>O</th>
                 `); 
         }
-        else if(percent > 80 && percent < 90){
+        else if(percent >= 80 && percent < 90){
             $("#end").append(`
                 <th>A</th>
                 `); 
         }
-        else if(percent > 70 && percent < 80){
+        else if(percent >= 70 && percent < 80){
             $("#end").append(`
                 <th>A</th>
                 `); 
         }
-        else if(percent > 60 && percent < 70){
+        else if(percent >= 60 && percent < 70){
             $("#end").append(`
                 <th>B</th>
                 `); 
         }
-        else if(percent > 50 && percent < 60){
+        else if(percent >= 50 && percent < 60){
             $("#end").append(`
                 <th>C</th>
                 `); 
